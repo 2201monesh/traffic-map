@@ -154,5 +154,14 @@ code {
 
 .charts{
   display: flex;
-  align-items: end;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.scaleX{
+  transform: scaleY(-1);
+}
+
+.chart-div{
+  margin: -10px 0;
 }

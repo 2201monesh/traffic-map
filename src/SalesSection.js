@@ -211,11 +211,28 @@ const data5 = [
       </div>
 
       <div className='charts'>
-        <AreaCharts data={data1} height={200} />
-        <AreaCharts data={data2} height={170} />
-        <AreaCharts data={data3} height={150} />
-        <AreaCharts data={data4} height={120} />
-        <AreaCharts data={data5} height={80} />
+        <div>
+          <AreaCharts data={data1} height={200} />
+          <AreaCharts data={data1} height={200} scale="true" />
+        </div>
+        <div>
+          <AreaCharts data={data2} height={170} />
+          <AreaCharts data={data2} height={170} scale="true" />
+        </div>
+        <div>
+          <AreaCharts data={data3} height={150} />
+          <AreaCharts data={data3} height={150} scale="true" />
+        </div>
+        <div>
+          <AreaCharts data={data4} height={120} />
+          <AreaCharts data={data4} height={120} scale="true" />
+        </div>
+
+        <div>
+          <AreaCharts data={data5} height={80} />
+          <AreaCharts data={data5} height={80} scale="true" />
+        </div>
+        
       </div>
     </div>
   )
