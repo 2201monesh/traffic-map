@@ -16,6 +16,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .map-layout{
@@ -67,4 +68,85 @@ code {
 .arrowSpan{
   color: blue;
   margin-left: 6px;
+}
+
+.sales-layout{
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  flex-direction: column;
+}
+
+.sales-funnel-head{
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  /* justify-content: space-between; */
+}
+
+.sales-logo{
+  width: 50px;
+  height: 50px;
+  background-color: lightblue;
+  color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+
+.sales-data{
+  display: flex;
+  border-top: 3px dashed gainsboro;
+}
+
+.data-section{
+  width: 200px;
+  line-height: 10px;
+}
+
+.data-section-logo-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 4px;
+  color: green;
+  background-color: lightgreen;
+}
+
+.data-section-logo-down {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 4px;
+  color: red;
+  background-color: lightcoral;
+}
+
+.data-section-logo-div{
+  display: flex;
+  align-items: center;
+  margin-top: -6px;
+}
+
+.percentage-up{
+  color: green;
+}
+
+.percentage-down{
+  color: red;
+}
+
+.circle-logo{
+  color: blue;
+  margin-top: -5px;
 }
