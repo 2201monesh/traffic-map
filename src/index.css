@@ -151,3 +151,8 @@ code {
   color: blue;
   margin-top: -5px;
 }
+
+.charts{
+  display: flex;
+  align-items: end;
+}

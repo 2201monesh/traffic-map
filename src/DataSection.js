@@ -1,7 +1,9 @@
+import { Chart } from 'chart.js';
 import React from 'react'
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { FaArrowTrendDown } from "react-icons/fa6";
 import { FiCircle } from "react-icons/fi";
+import AreaCharts from './AreaCharts';
 
 function DataSection({heading, stats, direction, percentage}) {
   return (
@@ -14,6 +16,8 @@ function DataSection({heading, stats, direction, percentage}) {
         {direction === "down" && <div className='data-section-logo-down'><FaArrowTrendDown /></div>}
         {direction ==="up" ? <h3 className='percentage-up'>{percentage}</h3> : <h3 className='percentage-down'>{percentage}</h3>}
       </div>
+
+      {/* <AreaCharts /> */}
     </div>
   )
 }
