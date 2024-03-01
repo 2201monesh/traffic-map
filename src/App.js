@@ -1,8 +1,13 @@
+import Map from "./Map";
+import NavLayout from "./NavLayout";
 
 function App() {
   return (
     <div className="App">
-      hellloooooo
+      <div className="map-layout">
+        <NavLayout />
+        <Map />
+      </div>
     </div>
   );
 }
