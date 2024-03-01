@@ -106,6 +106,7 @@ code {
 .data-section{
   width: 200px;
   line-height: 10px;
+  /* background: linear-gradient(to right,#2060a0, #a0c0ff); */
 }
 
 .data-section-logo-up{

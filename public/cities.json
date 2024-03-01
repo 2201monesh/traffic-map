@@ -1,0 +1,7 @@
+[
+  { "id": 1, "name": "Mumbai", "latitude": 19.0760, "longitude": 72.8777 },
+  { "id": 2, "name": "Delhi", "latitude": 28.6139, "longitude": 77.2090 },
+  { "id": 3, "name": "Bangalore", "latitude": 12.9716, "longitude": 77.5946 },
+  { "id": 4, "name": "Hyderabad", "latitude": 17.3850, "longitude": 78.4867 },
+  { "id": 5, "name": "Chennai", "latitude": 13.0827, "longitude": 80.2707 }
+]
